@@ -6,6 +6,7 @@ export default class Join extends Command {
   static description = 'Join a pomodoro session'
 
   static examples = [
+    '$ cuckoo-cli join',
     '$ cuckoo-cli join my-session-name',
   ]
 

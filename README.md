@@ -3,11 +3,7 @@ cuckoo-cli
 
 An unofficial cli for [cuckoo.team](https://cuckoo.team)
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+The CLI is still in development and currently in an experimental state!
 
 <!-- toc -->
 * [Usage](#usage)
@@ -30,7 +26,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`cuckoo-cli help [COMMAND]`](#cuckoo-cli-help-command)
-* [`cuckoo-cli join SESSION`](#cuckoo-cli-join-session)
+* [`cuckoo-cli join [SESSION]`](#cuckoo-cli-join-session)
 * [`cuckoo-cli plugins`](#cuckoo-cli-plugins)
 * [`cuckoo-cli plugins:inspect PLUGIN...`](#cuckoo-cli-pluginsinspect-plugin)
 * [`cuckoo-cli plugins:install PLUGIN...`](#cuckoo-cli-pluginsinstall-plugin)
@@ -60,7 +56,7 @@ DESCRIPTION
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.10/src/commands/help.ts)_
 
-## `cuckoo-cli join SESSION`
+## `cuckoo-cli join [SESSION]`
 
 Join a pomodoro session
 
