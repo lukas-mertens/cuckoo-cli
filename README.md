@@ -1,7 +1,7 @@
-oclif-hello-world
+cuckoo-cli 
 =================
 
-oclif example Hello World CLI
+An unofficial cli for [cuckoo.team](https://cuckoo.team)
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
@@ -30,12 +30,15 @@ USAGE
 # Commands
 <!-- commands -->
 * [`cuckoo-cli help [COMMAND]`](#cuckoo-cli-help-command)
+* [`cuckoo-cli join SESSION`](#cuckoo-cli-join-session)
 * [`cuckoo-cli plugins`](#cuckoo-cli-plugins)
 * [`cuckoo-cli plugins:inspect PLUGIN...`](#cuckoo-cli-pluginsinspect-plugin)
 * [`cuckoo-cli plugins:install PLUGIN...`](#cuckoo-cli-pluginsinstall-plugin)
 * [`cuckoo-cli plugins:link PLUGIN`](#cuckoo-cli-pluginslink-plugin)
 * [`cuckoo-cli plugins:uninstall PLUGIN...`](#cuckoo-cli-pluginsuninstall-plugin)
 * [`cuckoo-cli plugins update`](#cuckoo-cli-plugins-update)
+* [`cuckoo-cli setup`](#cuckoo-cli-setup)
+* [`cuckoo-cli work SESSION DURATION`](#cuckoo-cli-work-session-duration)
 
 ## `cuckoo-cli help [COMMAND]`
 
@@ -56,6 +59,26 @@ DESCRIPTION
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.10/src/commands/help.ts)_
+
+## `cuckoo-cli join SESSION`
+
+Join a pomodoro session
+
+```
+USAGE
+  $ cuckoo-cli join [SESSION]
+
+ARGUMENTS
+  SESSION  The session to join
+
+DESCRIPTION
+  Join a pomodoro session
+
+EXAMPLES
+  $ cuckoo-cli join my-session-name
+```
+
+_See code: [dist/commands/join/index.ts](https://github.com/lukas-mertens/cuckoo-cli/blob/v0.0.0/dist/commands/join/index.ts)_
 
 ## `cuckoo-cli plugins`
 
@@ -202,4 +225,42 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
+
+## `cuckoo-cli setup`
+
+Run config setup
+
+```
+USAGE
+  $ cuckoo-cli setup
+
+DESCRIPTION
+  Run config setup
+
+EXAMPLES
+  $ cuckoo-cli setup
+```
+
+_See code: [dist/commands/setup/index.ts](https://github.com/lukas-mertens/cuckoo-cli/blob/v0.0.0/dist/commands/setup/index.ts)_
+
+## `cuckoo-cli work SESSION DURATION`
+
+Start working
+
+```
+USAGE
+  $ cuckoo-cli work [SESSION] [DURATION]
+
+ARGUMENTS
+  SESSION   The session to join
+  DURATION  the duration in minutes
+
+DESCRIPTION
+  Start working
+
+EXAMPLES
+  $ cuckoo-cli work my-session-name 25
+```
+
+_See code: [dist/commands/work/index.ts](https://github.com/lukas-mertens/cuckoo-cli/blob/v0.0.0/dist/commands/work/index.ts)_
 <!-- commandsstop -->
