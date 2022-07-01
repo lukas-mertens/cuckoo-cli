@@ -14,7 +14,7 @@
     "@oclif/plugin-plugins": "^2.0.12",
     "chalk": "^4.1.0",
     "node-notifier": "^10.0.0",
-    "socket.io-client": "^2.3.1"
+    "socket.io-client": "^2.5.0"
   },
   "devDependencies": {
     "@oclif/test": "^2",
