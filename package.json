@@ -11,7 +11,7 @@
     "@oclif/core": "^1",
     "@oclif/plugin-autocomplete": "^1.3.10",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.1.12",
+    "@oclif/plugin-plugins": "^2.4.4",
     "chalk": "^4.1.0",
     "node-notifier": "^10.0.0",
     "socket.io-client": "^2.5.0"
