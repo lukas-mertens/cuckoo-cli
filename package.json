@@ -20,7 +20,7 @@
     "@oclif/test": "^2",
     "@types/chai": "^4",
     "@types/mocha": "^9.1.1",
-    "@types/node": "^16.18.69",
+    "@types/node": "^16.18.86",
     "@types/node-notifier": "^8.0.5",
     "@types/socket.io-client": "^3.0.0",
     "chai": "^4",
